@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeet--login/signup interface</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+
+<body>
+
+    <div id="container1">
+        <h1>Cybercrime - Report</h1>
+        <div class="section-title">Victim Details</div>
+        <hr class="div1">
+        <form action="" id="1">
+            <label>Victim name</label>
+            <input type="text" placeholder="name" id="name" name="name">
+            <label>Age</label>
+            <input type="number" id="age" name="age" min="0" max="120" placeholder="Age">
+            <label>Gender</label>
+            <select name="Gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <!-- <label>Contact</label>
+            <input type="number" id="number" name="con" placeholder="+91-" pattern="[+]?[0-9\- ]{10,15}" required> -->
+            <label>Incident description</label>
+            <textarea name="incident_desc" rows="4" placeholder="Address of Victim"></textarea>
+            <div class="but" style="width:10%">
+<button class="btns" onclick="next()" style="color: white;"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
+        </form>
+    </div>
+
+    <!-- <div id="container2">
+        <h1>Cybercrime - Report</h1>
+        <div class="section-title">Crime-details</div>
+        <hr class="div2">
+        <form action="" id="2">
+            <label>Type of Cybercrime</label>
+            <select name="crime_type">
+                <option>Phishing</option>
+                <option>Online Scam</option>
+                <option>Identity Theft</option>
+                <option>Hacking</option>
+                <option>Data Breach</option>
+                <option>Other</option>
+            </select>
+            <label>Incident Description</label>
+            <textarea name="incident_desc" rows="4" placeholder="Details of the incident..."></textarea>
+            <label>Date of Incident</label>
+            <input type="date" name="incident_date">
+            <label>Was any data or money compromised?</label>
+            <select name="data_loss">
+                <option>Yes</option>
+                <option>No</option>
+                <option>Not Sure</option>
+            </select>
+            <button type="submit" class="btns2">Next</button>
+        </form>
+    </div>
+
+    <div id="container3">
+        <form action="" id="f3">
+            <label>Did you report this to police or cyber cell?</label>
+            <select name="reported">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+            <label>Evidence or Screenshot Links</label>
+            <input type="text" name="evidence" placeholder="Paste URL(s) if any">
+            <label>Platform involved in the attack</label>
+            <input type="text" name="platform" placeholder="e.g., Facebook, Instagram, Bank site">
+            <label>Have you experienced similar incidents before?</label>
+            <select name="repeat_incident">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+            <label>Actions you’ve taken so far</label>
+            <textarea name="actions_taken" rows="4" placeholder="What steps have you taken after the attack?"></textarea>
+            <label>Do you consent to sharing this with authorities?</label>
+            <select name="consent">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+            <button type="submit" id="submit">Submit Form</button>
+        </form>
+    </div> -->
+
+    <script src="https://kit.fontawesome.com/b68025b7ee.js" crossorigin="anonymous"></script>
+    <script src="report.js"></script>
+
+</body>
+
+</html>
